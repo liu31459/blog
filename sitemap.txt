@@ -1,8 +1,8 @@
-http://example.com/about/index.html
-http://example.com/2023/10/01/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/
-http://example.com/categories/index.html
-http://example.com/tags/index.html
-http://example.com/2025/05/01/hello-world/
-http://example.com/
-http://example.com/tags/%E7%94%9F%E6%B4%BB/
-http://example.com/categories/%E6%97%A5%E5%B8%B8/
+https://liu31459.github.io/blog/about/index.html
+https://liu31459.github.io/blog/2023/10/01/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/
+https://liu31459.github.io/blog/categories/index.html
+https://liu31459.github.io/blog/tags/index.html
+https://liu31459.github.io/blog/2025/05/01/hello-world/
+https://liu31459.github.io/blog
+https://liu31459.github.io/blog/tags/%E7%94%9F%E6%B4%BB/
+https://liu31459.github.io/blog/categories/%E6%97%A5%E5%B8%B8/
