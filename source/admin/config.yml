@@ -1,0 +1,22 @@
+backend:
+  name: github
+  repo: 你的GitHub用户名/仓库名  # 例如 octocat/hexo-blog
+  branch: main  # 内容存储的分支
+
+# 媒体文件（图片）存储路径
+media_folder: "source/images"  # 上传的图片保存到 Hexo 的 images 目录
+public_folder: "/images"      # 在生成的静态站点中引用路径为 /images
+
+# 内容集合配置（对应 Hexo 的文章）
+collections:
+  - name: posts
+    label: 文章
+    folder: "source/_posts"  # Hexo 文章的存储路径
+    create: true             # 允许创建新文章
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"  # 文件名格式
+    fields:
+      - { name: title, label: 标题, widget: string }
+      - { name: date, label: 日期, widget: datetime }
+      - { name: tags, label: 标签, widget: list, default: ["未分类"] }
+      - { name: categories, label: 分类, widget: list }
+      - { name: body, label: 内容, widget: markdown }

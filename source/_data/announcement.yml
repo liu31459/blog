@@ -1,0 +1,13 @@
+content: |
+  <div class="custom-announcement">
+    <p>公告：诚哥/士道，皆在一念之间</p>
+    <a href="/about/">详情请点击此处</a>
+  </div>
+style: |
+  .custom-announcement {
+    padding: 12px;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #ff6b6b, #ff8e53);
+    color: white;
+    text-align: center;
+  }
